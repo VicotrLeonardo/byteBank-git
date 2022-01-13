@@ -20,7 +20,7 @@ gerente1.cadastrarSenha("senha")
 const diretor1 = new Diretor("Rodrigo", 10000, 12345678900)
 diretor1.cadastrarSenha("senha1")
 
-const cliente = new Cliente("Angela", 12345678977, "senha3")
+const cliente = new Cliente("Joao", 12345678977, "senha3")
 
 const gerenteEstaLogado = SistemaAutenticacao.login(gerente1, "senha")
 const diretorEstaLogado = SistemaAutenticacao.login(diretor1, "senha2")
