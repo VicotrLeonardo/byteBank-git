@@ -14,7 +14,7 @@ import {
     SistemaAutenticacao
 } from "./SistemaAutenticacao.js";
 
-const gerente1 = new Gerente("Arnaldo", 5000, 12345678601)
+const gerente1 = new Gerente("Marcus", 5000, 12345678601)
 gerente1.cadastrarSenha("senha")
 
 const diretor1 = new Diretor("Rodrigo", 10000, 12345678900)
